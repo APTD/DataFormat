@@ -1,0 +1,6 @@
+*.*
+!.gitignore
+!*.md
+!*.xsd
+!*.xjb
+
