@@ -40,6 +40,13 @@
         </xs:key>
     </xs:element>
 
+    <!-- @todo use railML platformEdge instead of own platform elements, or combine in a meaningful way -->
+    <xs:attribute name="platformRef">
+        <xs:simpleType>
+            <xs:restriction base="xs:string" />
+        </xs:simpleType>
+    </xs:attribute>
+
     <xs:complexType name="platformType">
         <xs:sequence>
             <xs:element ref="asimov:agentRef" minOccurs="0" maxOccurs="1" />
